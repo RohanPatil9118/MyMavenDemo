@@ -29,7 +29,7 @@ public class TC_test extends BaseClass {
 		String text = db.getText();
 		//Assert.assertEquals(text, "Dashboard");
 		
-		if(text.equals("Dashbord"))
+		if(text.equals("Dashboard"))
 		{
 			logger.info("Login - passed");
 			Assert.assertTrue(true);
